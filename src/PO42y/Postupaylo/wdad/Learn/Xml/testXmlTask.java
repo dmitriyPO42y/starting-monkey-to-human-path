@@ -8,7 +8,7 @@ import java.util.Calendar;
 public class testXmlTask {
 
     public static void main(String[] args) {
-        xmlTask.openDocument("F:\\right.xml");
+        xmlTask.openDocument("C:\\Users\\1\\IdeaProjects\\starting-monkey-to-human-path\\src\\PO42y\\Postupaylo\\wdad\\Learn\\Xml\\right.xml");
 
         Calendar date = Calendar.getInstance();
 
