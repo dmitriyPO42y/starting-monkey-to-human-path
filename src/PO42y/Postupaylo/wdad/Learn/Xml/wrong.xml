@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE restaurant SYSTEM
+        "C:\Users\1\IdeaProjects\starting-monkey-to-human-path\src\PO42y\Postupaylo\wdad\Learn\Xml\restaurant.dtd">
+    <restaurant>
+        <date day="01" month="01" year="2011">
+            <order>
+                <item></item>
+                <officiant firstname="Oleg" secondname="ivanov"></officiant>
+                <totalcost>450</totalcost>
+            </order>
+            <order>
+                <item name="Tea" cost="10"></item>
+                <officiant firstname="" secondname="petrov"></officiant>
+                <totalcost>450</totalcost>
+            </order>
+            <order>
+                <newTag></newTag>
+                <officiant firstname="Andrey" secondname="sidorov"></officiant>
+                <totalcost>450</totalcost>
+            </order>
+        </date>
+    </restaurant>
