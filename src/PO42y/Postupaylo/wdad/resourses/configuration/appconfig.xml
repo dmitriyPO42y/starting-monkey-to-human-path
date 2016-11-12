@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><appconfig>
+    <rmi>
+        <server>
+            <registry>
+                <createregistry>yes</createregistry>
+                <registryaddress>126.128.0.127</registryaddress>
+                <registryport>2005</registryport>
+            </registry>
+        </server>
+        <client>
+            <policypath>policy</policypath>
+            <usecodebaseonly>no</usecodebaseonly>
+        </client>
+        <classprovider>http://newProvider.com</classprovider>
+    </rmi>
+</appconfig>
