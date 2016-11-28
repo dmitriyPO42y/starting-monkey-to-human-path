@@ -8,14 +8,14 @@ import java.util.Calendar;
 public class testXmlTask {
 
     public static void main(String[] args) {
-        xmlTask.openDocument("C:\\Users\\1\\IdeaProjects\\starting-monkey-to-human-path\\src\\PO42y\\Postupaylo\\wdad\\Learn\\Xml\\right.xml");
+        XmlTask.openDocument("C:\\Users\\1\\IdeaProjects\\starting-monkey-to-human-path\\src\\PO42y\\Postupaylo\\wdad\\Learn\\Xml\\right.xml");
 
         Calendar date = Calendar.getInstance();
 
         date.set(2011, 01, 03);
-        double total = xmlTask.earningsTotal("ivanov", date);
-        xmlTask.changeOfficiantName("Andrey","sidorov","", "ivanov");
-        xmlTask.removeDay(date);
+        double total = XmlTask.earningsTotal("ivanov", date);
+        XmlTask.changeOfficiantName("Andrey","sidorov","", "ivanov");
+        XmlTask.removeDay(date);
 
         System.out.println(total);
     }

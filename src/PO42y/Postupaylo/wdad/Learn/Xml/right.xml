@@ -1,72 +1,69 @@
-<?xml version="1.0"?>
-<!DOCTYPE restaurant SYSTEM
-        "C:\Users\1\IdeaProjects\starting-monkey-to-human-path\src\PO42y\Postupaylo\wdad\Learn\Xml\restaurant.dtd">
-<restaurant>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><restaurant>
     <date day="01" month="01" year="2011">
         <order>
-            <officiant firstname="" secondname="ivanov"></officiant>
-            <item name="Soda" cost="200"></item>
+            <officiant firstname="" secondname="ivanov"/>
+            <item cost="200" name="Soda"/>
             <totalcost>222</totalcost>
         </order>
         <order>
-            <officiant firstname="" secondname="petrov"></officiant>
-            <item name="Tea" cost="10"></item>
+            <officiant firstname="" secondname="petrov"/>
+            <item cost="10" name="Tea"/>
             <totalcost>222</totalcost>
         </order>
         <order>
-            <officiant firstname="Andrey" secondname="sidorov"></officiant>
-            <item name="Meat" cost="450"></item>
+            <officiant firstname="Andrey" secondname="sidorov"/>
+            <item cost="450" name="Meat"/>
             <totalcost>222</totalcost>
         </order>
     </date>
     <date day="02" month="01" year="2011">
         <order>
-            <officiant firstname="" secondname="ivanov"></officiant>
-            <item name="Soda" cost="200"></item>
+            <officiant firstname="" secondname="ivanov"/>
+            <item cost="200" name="Soda"/>
             <totalcost>222</totalcost>
         </order>
         <order>
-            <officiant firstname="" secondname="petrov"></officiant>
-            <item name="Tea" cost="10"></item>
+            <officiant firstname="" secondname="petrov"/>
+            <item cost="10" name="Tea"/>
             <totalcost>222</totalcost>
         </order>
         <order>
-            <officiant firstname="Andrey" secondname="sidorov"></officiant>
-            <item name="Meat" cost="450"></item>
+            <officiant firstname="Andrey" secondname="sidorov"/>
+            <item cost="450" name="Meat"/>
             <totalcost>222</totalcost>
         </order>
     </date>
     <date day="03" month="01" year="2011">
         <order>
-            <officiant firstname="" secondname="ivanov"></officiant>
-            <item name="Soda" cost="200"></item>
+            <officiant firstname="" secondname="ivanov"/>
+            <item cost="200" name="Soda"/>
             <totalcost>222</totalcost>
         </order>
         <order>
-            <officiant firstname="" secondname="petrov"></officiant>
-            <item name="Tea" cost="10"></item>
+            <officiant firstname="" secondname="petrov"/>
+            <item cost="10" name="Tea"/>
             <totalcost>222</totalcost>
         </order>
         <order>
-            <officiant firstname="Andrey" secondname="sidorov"></officiant>
-            <item name="Meat" cost="450"></item>
+            <officiant firstname="Andrey" secondname="sidorov"/>
+            <item cost="450" name="Meat"/>
             <totalcost>222</totalcost>
         </order>
     </date>
     <date day="04" month="01" year="2011">
         <order>
-            <officiant firstname="" secondname="ivanov"></officiant>
-            <item name="Soda" cost="200"></item>
+            <officiant firstname="" secondname="ivanov"/>
+            <item cost="200" name="Soda"/>
             <totalcost>222</totalcost>
         </order>
         <order>
-            <officiant firstname="" secondname="petrov"></officiant>
-            <item name="Tea" cost="10"></item>
+            <officiant firstname="" secondname="petrov"/>
+            <item cost="10" name="Tea"/>
             <totalcost>222</totalcost>
         </order>
         <order>
-            <officiant firstname="Andrey" secondname="sidorov"></officiant>
-            <item name="Meat" cost="450"></item>
+            <officiant firstname="Andrey" secondname="sidorov"/>
+            <item cost="450" name="Meat"/>
             <totalcost>222</totalcost>
         </order>
     </date>

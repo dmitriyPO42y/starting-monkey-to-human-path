@@ -18,7 +18,7 @@ public class testPreferencesManager {
         PreferencesManager preferencesManager = PreferencesManager.getInstance();
         //System.out.println(preferencesManager.getProperty(Constants.CREATE_REGYSTRY));
         //preferencesManager.setProperty(Constants.CREATE_REGYSTRY, "no");
-        System.out.println(preferencesManager.getProperty(Constants.CREATE_REGYSTRY));
+        System.out.println(preferencesManager.getProperty(Constants.CREATE_REGISTRY));
         try {
             Properties properties = preferencesManager.getProperties();
             properties.list(System.out);

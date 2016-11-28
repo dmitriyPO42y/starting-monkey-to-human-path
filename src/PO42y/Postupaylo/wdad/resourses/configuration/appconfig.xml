@@ -2,15 +2,15 @@
     <rmi>
         <server>
             <registry>
-                <createregistry>yes</createregistry>
-                <registryaddress>126.128.0.127</registryaddress>
-                <registryport>2005</registryport>
+                <createregistry>no</createregistry>
+                <registryaddress>localhost</registryaddress>
+                <registryport>20010</registryport>
             </registry>
-        </server>
+        <bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/></server>
         <client>
-            <policypath>policy</policypath>
+            <policypath>yes</policypath>
             <usecodebaseonly>no</usecodebaseonly>
         </client>
-        <classprovider>http://newProvider.com</classprovider>
+        <classprovider>http://www.yourhost.free.ru/cp/cp.jar</classprovider>
     </rmi>
 </appconfig>

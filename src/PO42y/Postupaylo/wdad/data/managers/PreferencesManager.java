@@ -8,6 +8,7 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+import java.rmi.Remote;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.lang.*;
@@ -47,12 +48,16 @@ public class PreferencesManager {
 
     public void setProperty(String key, String value) throws TransformerException
     {
-        document.getElementsByTagName(key).item(0).setTextContent(value);
+        String[] tags = key.split("\\.");
+        int lastIndex = tags.length - 1;
+        document.getElementsByTagName(tags[lastIndex]).item(0).setTextContent(value);
         writeDoc();
     }
     public String getProperty(String key)
     {
-        NodeList nodes = document.getElementsByTagName(key);
+        String[] tags = key.split("\\.");
+        int lastIndex = tags.length - 1;
+        NodeList nodes = document.getElementsByTagName(tags[lastIndex]);
         return nodes.item(0).getTextContent();
     }
     public void setProperties(Properties prop) throws TransformerException
@@ -122,6 +127,11 @@ public class PreferencesManager {
     public String getRegistryAddress() {
         String tegRegistryAddress = "registryaddress";
         return document.getElementsByTagName(tegRegistryAddress).item(0).getTextContent();
+    }
+    @Deprecated
+    public boolean getCreateRegistry() {
+        NodeList nodeList = document.getElementsByTagName("createregistry");
+        return nodeList.item(0).getTextContent().equals("yes");
     }
     @Deprecated
     public void setCreateRegistry(boolean createRegistry) throws TransformerException {
