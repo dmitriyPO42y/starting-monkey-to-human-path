@@ -32,7 +32,7 @@ import java.util.Properties;
  */
 public class PreferencesManager {
     private static PreferencesManager instance;
-    private String path = "C:\\Users\\1\\IdeaProjects\\starting-monkey-to-human-path\\src\\PO42y\\Postupaylo\\wdad\\resourses\\configuration\\appconfig.xml";
+    private String path = "C:\\Users\\d.postupaylo\\Documents\\IdeaProjects2015\\IdeaProjects\\starting-monkey-to-human-path\\src\\PO42y\\Postupaylo\\wdad\\resourses\\configuration\\appconfig.xml";
     Document document;
 
     PreferencesManager() throws ParserConfigurationException, IOException, SAXException {
