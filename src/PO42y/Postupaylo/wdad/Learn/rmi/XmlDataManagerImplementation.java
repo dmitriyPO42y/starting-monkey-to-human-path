@@ -1,6 +1,6 @@
 package PO42y.Postupaylo.wdad.Learn.rmi;
 
-import PO42y.Postupaylo.wdad.Learn.Xml.XmlTask;
+import PO42y.Postupaylo.wdad.Learn.Xml.xmlTask;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -19,34 +19,34 @@ public class XmlDataManagerImplementation implements XmlDataManager, Serializabl
     /*возвращающий суммарную выручку заданного официанта в заданный день*/
     public XmlDataManagerImplementation()
     {
-        XmlTask.openDocument("C:\\Users\\d.postupaylo\\Documents\\IdeaProjects2015\\IdeaProjects\\starting-monkey-to-human-path\\src\\PO42y\\Postupaylo\\wdad\\Learn\\Xml\\right.xml");
+        xmlTask.openDocument("C:\\Users\\d.postupaylo\\Documents\\IdeaProjects2015\\IdeaProjects\\starting-monkey-to-human-path\\src\\PO42y\\Postupaylo\\wdad\\Learn\\Xml\\right.xml");
     }
 
     @Override
     public double earningsTotal(Officiant officiant, Calendar date)
     {
-        return XmlTask.earningsTotal(officiant.getSecondName(), date);
+        return xmlTask.earningsTotal(officiant.getSecondName(), date);
     }
     @Override
     public void removeDay(Calendar date)
     {
-        XmlTask.removeDay(date);
+        xmlTask.removeDay(date);
     }
     @Override
     public  void changeOfficiantName(Officiant oldOfficiant, Officiant newOfficiant)
     {
-        XmlTask.changeOfficiantName(oldOfficiant.getFirstName(), oldOfficiant.getSecondName(), newOfficiant.getFirstName(), newOfficiant.getSecondName());
+        xmlTask.changeOfficiantName(oldOfficiant.getFirstName(), oldOfficiant.getSecondName(), newOfficiant.getFirstName(), newOfficiant.getSecondName());
     }
     @Override
     public List<Order> getOrders(Calendar date)
     {
-        List<Order> listOrder = XmlTask.gerOrders(date);
+        List<Order> listOrder = xmlTask.gerOrders(date);
         return listOrder;
     }
     @Override
     public Calendar lastOfficiantWorkDate(Officiant officiant)
     {
-        return XmlTask.lastOfficiantWorkDate(officiant.getFirstName(), officiant.getSecondName());
+        return xmlTask.lastOfficiantWorkDate(officiant.getFirstName(), officiant.getSecondName());
     }
 }
 
