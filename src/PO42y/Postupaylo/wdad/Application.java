@@ -6,6 +6,6 @@ package PO42y.Postupaylo.wdad;
 public class Application {
     public static void main(String[] args) {
         System.out.println("I’m Dmitriy Postupaylo, and I’m not a monkey");
-    }
+        }
 }
 

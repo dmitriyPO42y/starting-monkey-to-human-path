@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><appconfig>
+    <rmi>
+        <server>
+            <registry>
+                <createregistry>no</createregistry>
+                <registryaddress>localhost</registryaddress>
+                <registryport>20010</registryport>
+            </registry>
+        <bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/><bindedobject class="PO42y.Postupaylo.wdad.Learn.rmi.XmlDataManagerImplementation" name="xmlDataManager"/></server>
+        <client>
+            <policypath>yes</policypath>
+            <usecodebaseonly>no</usecodebaseonly>
+        </client>
+        <classprovider>http://www.yourhost.free.ru/cp/cp.jar</classprovider>
+    </rmi>
+</appconfig>
